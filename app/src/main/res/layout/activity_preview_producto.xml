@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".previewProducto">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Space
+            android:layout_width="17dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                app:srcCompat="@drawable/vippng_com_cubiertos_png_1469437" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="descripcion de el producto" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="ingredientes que contiene este" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="209dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:text="precio del producto" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="209dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:text="tiempo de preparacion" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="comentarios para el chef" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="74dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="139dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="cantidad" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="76dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:text="+" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="69dp"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="agregar producto" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
