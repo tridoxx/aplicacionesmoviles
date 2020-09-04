@@ -9,217 +9,253 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="match_parent"
-            android:layout_height="83dp"
-            android:gravity="center"
-            android:text="pedidos" />
+        <Space
+            android:layout_width="17dp"
+            android:layout_height="104dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:text="producto" />
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:text="cantidad" />
-
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="59dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="precio" />
-
-                <TextView
-                    android:id="@+id/textView18"
-                    android:layout_width="55dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="total" />
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="98dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="eliminar" />
-
-            </LinearLayout>
-
             <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
+                android:layout_width="389dp"
+                android:layout_height="23dp" />
+
+            <LinearLayout
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="53dp"
+                    android:layout_height="42dp"
+                    android:background="#00ED1515"
+                    android:scaleType="fitCenter"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/espalda" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="279dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="pedidos"
+                    android:textColor="#151515"
+                    android:textSize="30sp" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:text="producto" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:text="cantidad" />
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="pizza napolitana"
+                        android:textColor="#000000" />
 
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="59dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="precio" />
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#000000"/>
 
-                <TextView
-                    android:id="@+id/textView18"
-                    android:layout_width="55dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="total" />
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="20.500"
+                        android:textColor="#000000"/>
 
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="98dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="eliminar" />
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="20.500"
+                        android:textColor="#000000"/>
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="98dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="eliminar"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="producto" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="cantidad" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="precio" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="total" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="98dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="eliminar" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="producto" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="cantidad" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="precio" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="total" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="98dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="eliminar" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="producto" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="cantidad" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="precio" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="total" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="98dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="eliminar" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp" />
 
             </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="15dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="118dp">
 
                 <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:text="producto" />
+                    android:id="@+id/textView21"
+                    android:layout_width="173dp"
+                    android:layout_height="58dp"
+                    android:text="20 minutos" />
 
                 <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:text="cantidad" />
-
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="59dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="precio" />
-
-                <TextView
-                    android:id="@+id/textView18"
-                    android:layout_width="55dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="total" />
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="98dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="eliminar" />
+                    android:id="@+id/textView22"
+                    android:layout_width="153dp"
+                    android:layout_height="58dp"
+                    android:text="20.500" />
 
             </LinearLayout>
 
-            <Space
+            <Button
+                android:id="@+id/button6"
                 android:layout_width="match_parent"
-                android:layout_height="15dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:text="producto" />
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:text="cantidad" />
-
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="59dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="precio" />
-
-                <TextView
-                    android:id="@+id/textView18"
-                    android:layout_width="55dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="total" />
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="98dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="eliminar" />
-
-            </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="85dp" />
-
+                android:layout_height="wrap_content"
+                android:text="continuar" />
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="118dp">
-
-            <TextView
-                android:id="@+id/textView21"
-                android:layout_width="173dp"
-                android:layout_height="58dp"
-                android:text="tiempo total" />
-
-            <TextView
-                android:id="@+id/textView22"
-                android:layout_width="153dp"
-                android:layout_height="58dp"
-                android:text="valor total" />
-
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="continuar" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

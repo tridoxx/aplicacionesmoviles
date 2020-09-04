@@ -18,7 +18,7 @@
 
         <LinearLayout
             android:layout_width="380dp"
-            android:layout_height="487dp"
+            android:layout_height="553dp"
             android:orientation="vertical">
 
             <Space
@@ -26,11 +26,22 @@
                 android:layout_height="wrap_content"
                 android:minHeight="100px" />
 
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="29dp"
+                android:layout_height="42dp"
+                android:background="#00ED1515"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:srcCompat="@drawable/espalda" />
+
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Registro" />
+                android:gravity="center"
+                android:text="Registro"
+                android:textSize="24sp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -240,7 +251,7 @@
             <Button
                 android:id="@+id/registrarme"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Registrarme" />
         </LinearLayout>

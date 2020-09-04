@@ -1,11 +1,14 @@
 package com.example.pruebadeslizable;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.ImageButton;
 
+import com.example.pruebadeslizable.ui.home.HomeFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -21,8 +24,8 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-    Button siguente;
-
+    //Button ImageButton;
+    ImageButton siguente;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
+
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -42,14 +46,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-       // siguente=(Button)findViewById(R.id.button3);
-        //siguente.setOnClickListener(new View.OnClickListener() {
-  //      @Override
-    //    Intent siguente = new Intent(MainActivity.this,actividadprincipal.class);
-      //  public void onClick(View view) {
-         //   startActivity(siguente);
-      //  }
-       // });
+
     }
 
     @Override

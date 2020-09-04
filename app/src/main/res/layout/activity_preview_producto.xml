@@ -14,13 +14,23 @@
         tools:layout_editor_absoluteY="1dp">
 
         <Space
-            android:layout_width="17dp"
-            android:layout_height="20dp" />
+            android:layout_width="42dp"
+            android:layout_height="37dp"
+            android:layout_weight="1" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="28dp"
+                android:layout_height="37dp"
+                android:background="#00ED1515"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:srcCompat="@drawable/espalda" />
 
             <Space
                 android:layout_width="match_parent"
@@ -30,7 +40,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="wrap_content"
                 android:layout_height="175dp"
-                app:srcCompat="@drawable/vippng_com_cubiertos_png_1469437" />
+                app:srcCompat="@drawable/pizza" />
 
             <Space
                 android:layout_width="match_parent"
@@ -40,13 +50,21 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
-                android:text="descripcion de el producto" />
+                android:gravity="center"
+                android:text="pizza napolitana"
+                android:textColor="#000000"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:text="ingredientes que contiene este" />
+                android:layout_height="104dp"
+                android:text="50 gramos de Harina  1 pizca de Sal  125 mililitros de Agua  10 gramos de Levadura fresca Relleno:  125 mililitros de Salsa de tomate  250 gramos de Mozzarella  2 unidades de tomates frescos  1 pizca de Sal  1 diente de Ajo  2 cucharadas de postre de Perejil  10 unidades de Aceitunas verdes  20 mililitros de Aceite de oliva"
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -58,21 +76,31 @@
                     android:layout_width="209dp"
                     android:layout_height="36dp"
                     android:layout_weight="1"
-                    android:text="precio del producto" />
+                    android:gravity="center"
+                    android:text="20.500"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="209dp"
                     android:layout_height="36dp"
                     android:layout_weight="1"
-                    android:text="tiempo de preparacion" />
+                    android:gravity="center"
+                    android:text="20 minutos"
+                    android:textColor="#000000" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
+                android:background="#C8C7C8"
                 android:text="comentarios para el chef" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -81,23 +109,23 @@
 
                 <Button
                     android:id="@+id/button2"
-                    android:layout_width="74dp"
-                    android:layout_height="65dp"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="-" />
 
                 <TextView
                     android:id="@+id/textView12"
-                    android:layout_width="139dp"
+                    android:layout_width="27dp"
                     android:layout_height="42dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="cantidad" />
+                    android:text="1" />
 
                 <Button
                     android:id="@+id/button3"
-                    android:layout_width="76dp"
-                    android:layout_height="64dp"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="+" />
 
@@ -106,25 +134,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="310dp"
-                android:layout_height="69dp"
-                android:gravity="center">
-
-                <Space
-                    android:layout_width="108dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
                 <Button
-                    android:id="@+id/button5"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
+                    android:id="@+id/agregar"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="agregar producto" />
+                    android:text="agregar" />
+
             </LinearLayout>
 
         </LinearLayout>

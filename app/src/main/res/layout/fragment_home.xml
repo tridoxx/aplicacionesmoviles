@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomMainActivityeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,9 +19,9 @@
             <SearchView
                 android:layout_width="match_parent"
                 android:layout_height="61dp"
-                android:background="#CDCDCD"
-                android:visibility="visible"
-                tools:layout_margin="12dp" >
+                android:layout_margin="2dp"
+                android:background="#FDFDFD"
+                android:visibility="visible">
 
             </SearchView>
 
@@ -29,7 +29,10 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="carta del dia" />
+                android:gravity="center"
+                android:text="carta del dia"
+                android:textColor="#000000"
+                android:textSize="24sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,10 +50,12 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/primeroan"
+                        android:id="@+id/primeraopcion"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:src="@drawable/hamburgusa"
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"/>
 
                     <Space
                         android:layout_width="match_parent"
@@ -60,7 +65,10 @@
                         android:id="@+id/imageButton7"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/pizza1"
+                        />
 
                 </LinearLayout>
 
@@ -73,7 +81,9 @@
                         android:id="@+id/primeroa"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hamburgusa" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -83,7 +93,9 @@
                         android:id="@+id/imageButton7"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/pizza1" />
 
                 </LinearLayout>
 
@@ -96,7 +108,9 @@
                         android:id="@+id/primeroa"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hamburgusa" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -106,7 +120,9 @@
                         android:id="@+id/imageButton7"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/pizza1" />
 
                 </LinearLayout>
 
@@ -116,7 +132,10 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="comidas rapidas" />
+                android:gravity="center"
+                android:text="comidas rapidas"
+                android:textColor="#000000"
+                android:textSize="24sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -137,7 +156,9 @@
                         android:id="@+id/primeroa"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/banana_shake" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -147,7 +168,9 @@
                         android:id="@+id/imageButton7"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/oreo_shake" />
 
                 </LinearLayout>
 
@@ -160,7 +183,9 @@
                         android:id="@+id/primeroa"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/banana_shake" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -170,7 +195,9 @@
                         android:id="@+id/imageButton7"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/oreo_shake" />
 
                 </LinearLayout>
 
@@ -183,7 +210,9 @@
                         android:id="@+id/primeroa"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/banana_shake" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -193,7 +222,9 @@
                         android:id="@+id/imageButton7"
                         android:layout_width="133dp"
                         android:layout_height="133dp"
-                        android:src="@drawable/vippng_com_cubiertos_png_1469437" />
+                        android:background="#00ED1515"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/oreo_shake" />
 
                 </LinearLayout>
 

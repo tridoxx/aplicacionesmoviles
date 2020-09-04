@@ -21,11 +21,6 @@
             android:layout_height="740dp"
             android:orientation="vertical">
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="100px" />
-
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
@@ -49,14 +44,14 @@
                 android:minHeight="100px" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txtEmail3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="40px"
                 android:text="Correo" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -71,7 +66,7 @@
                 android:text="Contraseña" />
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/txtPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -83,7 +78,7 @@
                 android:minHeight="100px" />
 
             <Button
-                android:id="@+id/ingresar"
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ingresar" />
@@ -110,6 +105,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Recuperar Cuenta" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100px" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="julian hoyos"
+                android:textSize="24sp" />
 
         </LinearLayout>
 
